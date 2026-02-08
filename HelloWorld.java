@@ -9,7 +9,7 @@ public class HelloWorld {
     }
 
     public static int multiply(int a, int b) {
-        throw new UnsupportedOperationException();
+        return a * b;
     }
 
     public static double divide(int a, int b) {
