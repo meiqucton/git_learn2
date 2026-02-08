@@ -5,7 +5,7 @@ public class HelloWorld {
     }
 
     public static int minus(int a, int b) {
-        throw new UnsupportedOperationException();
+        return a - b;
     }
 
     public static int multiply(int a, int b) {
