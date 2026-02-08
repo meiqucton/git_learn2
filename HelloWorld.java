@@ -13,7 +13,9 @@ public class HelloWorld {
     }
 
     public static double divide(int a, int b) {
-        throw new UnsupportedOperationException();
+       if (b == 0) throw new ArithmeticException();
+    return (double) a / b;
+
     }
 
     public static void main(String[] args) {
